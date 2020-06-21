@@ -1,0 +1,21 @@
+{
+  "name": "text-screensaver",
+  "version": "1.0.0",
+  "description": "A simple screensaver that resembles with Windows XP Screensaver with text.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpkahlon/text-screensaver.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "javascript",
+    "screensaver"
+  ],
+  "author": "Tej Kahlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpkahlon/text-screensaver/issues"
+  },
+  "homepage": "https://github.com/tpkahlon/text-screensaver#readme"
+}
