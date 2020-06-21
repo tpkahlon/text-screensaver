@@ -9,7 +9,7 @@ A simple text screensaver that resembles with Windows XP screensaver with text.
 
 ## Example
 
-Play with sandbox example here: [Demo](test)
+Play with sandbox example here: [Demo](https://codesandbox.io/s/magical-aryabhata-gq9c1?file=/src/index.js)
 
 ## Options
 
