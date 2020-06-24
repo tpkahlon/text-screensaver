@@ -1,6 +1,6 @@
 {
   "name": "text-screensaver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple screensaver that resembles with Windows XP Screensaver with text.",
   "main": "index.js",
   "repository": {
