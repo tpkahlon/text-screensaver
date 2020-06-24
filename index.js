@@ -1,13 +1,11 @@
 class ScreenSaver {
-  constructor(text, speed, options) {
+  constructor(ele, text, speed, options) {
+    this.ele = ele;
     this.text = text;
     this.speed = speed;
     this.options = options;
     this.create = () => {
       const element = document.createElement('div');
-
-      const parentWidth = options.width;
-      const parentHeight = options.height;
 
       const box = document.createElement('div');
       const boxChild = document.createElement('div');
@@ -18,8 +16,9 @@ class ScreenSaver {
       textWrapper.classList.add('box__text', 'box__text-screensaver');
 
       element.style.cssText = `
-        height: ${options.height}px;
-        width:  ${options.width}px;
+        display: block;
+        height: ${options.height};
+        width:  ${options.width};
       `;
       box.style.cssText = `
         margin: 0;
@@ -37,6 +36,10 @@ class ScreenSaver {
       boxChild.appendChild(textWrapper);
       textWrapper.textContent = this.text;
       element.appendChild(box);
+      ele.appendChild(element);
+
+      const parentWidth = element.offsetWidth;
+      const parentHeight = element.offsetHeight;
 
       let x = 0,
         y = 0,
@@ -50,6 +53,7 @@ class ScreenSaver {
           : reverseX
           ? x--
           : x++;
+
         y === parentHeight - textWrapper.offsetHeight
           ? (y--, (reverseY = true))
           : y === 0
