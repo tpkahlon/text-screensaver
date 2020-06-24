@@ -15,11 +15,12 @@ Play with sandbox example here: [Demo](https://codesandbox.io/s/magical-aryabhat
 
 You can pass following parameters to Text Screensaver in order to generate custom screensaver box
 
-| Attributes       | Values                                   |
-| ---------------- | ---------------------------------------- |
-| text / String    | 'Hello World'                            |
-| speed / Number   | Speed of text in milliseconds            |
-| options / Object | See _options_ object configuration below |
+| Attributes            | Values                                   |
+| --------------------- | ---------------------------------------- |
+| element / HTMLElement | document.getElementById('root')          |
+| text / String         | 'Hello World'                            |
+| speed / Number        | Speed of text in milliseconds            |
+| options / Object      | See _options_ object configuration below |
 
 You can pass following parameters to Options object in order to generate custom screensaver box
 
