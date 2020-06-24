@@ -25,8 +25,8 @@ You can pass following parameters to Options object in order to generate custom 
 
 | Attributes                                                                         | Values                                        |
 | ---------------------------------------------------------------------------------- | --------------------------------------------- |
-| width / Number                                                                     | 200                                           |
-| height / Number                                                                    | 300                                           |
+| width / String                                                                     | 300px or 100vw                                |
+| height / String                                                                    | 300px or 100vh                                |
 | [background](https://developer.mozilla.org/en-US/docs/Web/CSS/background) / String | content-box radial-gradient(crimson, skyblue) |
 | text / String / CSSText                                                            | See value below                               |
 
